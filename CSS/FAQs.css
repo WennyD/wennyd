@@ -1,0 +1,112 @@
+body{
+	font-family: Oswald,Acme,Trebichet MS,Arial,Tahoma,sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+}
+.bg_home{
+	background-color: #B8E7D9;;
+}
+
+.bg_cyan{
+	background-color: #68B4B0;
+}
+.bg_email{
+	background-color: #68B4B0;
+	padding: 10px;	
+}
+.bg_gray{
+	background-color: #DED9D9;
+}
+.Icon{
+	padding-right: 5px;
+	color: white;
+	font-size: 20px;
+}
+/*FAQs*/
+.bg_sign{
+	object-fit: cover;
+	background-image: url('../image/DNA.jpg');
+}
+h2{
+	text-align: center;
+}
+.Order a:link,.Order a:visited{
+	text-decoration: none;
+	color: black;
+	font-size: 20px
+}
+.Order a:link,.Order a:hover{
+	text-decoration: none;
+	color:lightsteelblue;
+
+}
+
+.Text{
+	padding-top:80px;
+	font-size: 100px;
+	text-align: center;
+}
+
+/*Nav*/
+ul,li{
+	color: black;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+.list_01 a:link,.list_01 a:visited{
+	color: black;
+	text-decoration: none;
+}
+.list_01 a:link,.list_01 a:hover{
+	color: black;
+	text-decoration: none;
+}
+
+/*Footer*/
+.list_02 a:link,.list_02 a:visited{
+	color: black;
+	text-decoration: none;
+}
+.list_02 a:link,.list_02 a:hover{
+	color: white;
+	text-decoration: none;
+}
+.Social_Icon{
+	font-size: 30px;
+}
+.bg_footer{
+	background-color: #DED9D9;
+}
+
+/*Nav*/
+.navbar-toggler {
+  padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+  font-size: var(--bs-navbar-toggler-font-size);
+  line-height: 1;
+  color: lightblue;
+  background-color: transparent;
+  border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+  border-radius: var(--bs-navbar-toggler-border-radius);
+  transition: var(--bs-navbar-toggler-transition);
+}
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-image: var(--bs-navbar-toggler-icon-bg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+.navbar-dark{
+	 --bs-navbar-color: rgba(255, 255, 255, 0.55);
+  --bs-navbar-hover-color: rgba(255, 255, 255, 0.75);
+  --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
+  --bs-navbar-active-color: #fff;
+  --bs-navbar-brand-color: #fff;
+  --bs-navbar-brand-hover-color: #fff;
+  --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.1);
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
