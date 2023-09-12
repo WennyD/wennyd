@@ -1,4 +1,4 @@
-body{
+ body{
 	font-family: Oswald,Acme,Trebichet MS,Arial,Tahoma,sans-serif;
 	font-size: 16px;
 	line-height: 24px;
@@ -170,7 +170,7 @@ ul,li{
 	cursor: pointer;
 	filter: opacity(0.5);
 }
-.thumb_list img: hover{
+.thumb_list img:hover{
  filter: opacity(1);
 }
 /*End Thumb*/
@@ -181,7 +181,7 @@ ul,li{
 	text-decoration: none;
 }
 .list_02 a:link,.list_02 a:hover{
-	color: white;
+	color: black;
 	text-decoration: none;
 }
 .Social_Icon{
